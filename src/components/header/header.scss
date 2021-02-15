@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px;
+    padding-left: 10px;
+
+    h3 {
+        margin: 0;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.header__title {
+    a {
+        color: white;
+    }
+}
+
+.header__navigation {
+    ul {
+        margin: 0;
+    }
+
+    ul li {
+        margin: 0;
+        padding: 5px 10px;
+
+        list-style: none;
+        border-radius: 3px;
+        transition: 200ms ease-out;
+
+        &:hover {
+          background-color: #444;
+        }
+    }
+
+    a:hover {
+        color: #00bc8c;
+    }
+}

@@ -1,0 +1,16 @@
+.error-indicator {
+  margin: 0 auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: darkgoldenrod;
+}
+
+.error-indicator__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
